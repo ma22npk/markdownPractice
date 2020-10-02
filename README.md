@@ -32,3 +32,27 @@ h1 は「下段に = 1個で見出しを表現できる」
 h2 は「下段に - 1個で見出しを表現できる」
 -
 ```
+
+pタグ(パラグラフ)の表現
+=
+次のパラグラフに行きたい場合は空文字列の行を入力する
+-
+hello.
+hello.hello.hello.hello.hello.hello.hello.
+
+hello.hello.hello.hello.hello.hello.hello.hello.
+
+```
+hello.hello.hello.hello.hello.hello.hello.hello.
+
+hello.hello.hello.hello.hello.hello.hello.hello.
+```
+第一パラグラフの中で改行する場合は半角スペースを二つ増やす。
+-
+
+hello.  
+hello.hello.hello.hello.hello.hello.hello.
+```
+hello.(半角スペース二個)
+hello.hello.hello.hello.hello.hello.hello.
+```
